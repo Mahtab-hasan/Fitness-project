@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Grey+Qo&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.inter-normal-grey-qo-regular {
+  font-family: "Inter", sans-serif, "Grey Qo", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.grey-qo-regular {
+  font-family: "Grey Qo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Inter;
+}
+nav h1 {
+  color: rgb(230, 83, 60);
+  font-size: 36px;
+}
+nav ul {
+  list-style: none;
+
+  display: flex;
+
+  gap: 47px;
+
+  font-size: 18px;
+
+  border: 1px solid #303030;
+
+  border-radius: 49px;
+
+  padding: 3px 24px 3px 4px;
+
+  text-align: center;
+
+  align-items: center;
+}
+nav ul li {
+}
+#home {
+  background-color: rgb(230, 83, 60);
+  border-radius: 25px;
+  padding: 10px 20px;
+}
+
+.banner {
+  background: linear-gradient(
+    to bottom,
+    rgba(30, 30, 30, 1) 0%,
+    rgba(30, 30, 30, 1) 1%,
+    rgba(30, 30, 30, 0.79) 33%,
+    rgba(30, 30, 30, 0.75) 48%,
+    rgba(30, 30, 30, 0.78) 55%,
+    rgba(0, 0, 0, 0.87) 74%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+.parentofbannertextimage {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.bannertextbox {
+  color: white;
+}
+.bannertextbox h1 {
+  font-size: 80px;
+  margin: 0;
+  line-height: 70px;
+  padding-bottom: 15px;
+  font-family: inter;
+}
+.bannertextbox h1 span {
+  font-family: Grey Qo;
+  font-weight: 300;
+  font-size: 110px;
+}
+.bannertextbox p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 19px 0px;
+}
+.btn1 {
+  border-radius: 42px;
+  border: none;
+  background: rgb(230, 83, 60);
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding: 16px 40px 16px 40px;
+}
+.btn2 {
+  border-radius: 42px;
+  border: 1px solid #595959;
+  background: transparent;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding: 16px 40px 16px 40px;
+  margin: 0 10px;
+}
+.bannerimage {
+  position: relative;
+}
+.bannerimage img {
+}
+.workout {
+  position: absolute;
+  top: 25%;
+  left: 76%;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 22px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px 32px;
+}
+.workout h1 {
+  margin: 0 0 5px 0;
+
+  font-size: 43px;
+
+  font-family: inter;
+}
+.workout p {
+  font-size: 13px;
+
+  font-family: inter;
+
+  font-weight: 100;
+
+  margin: 4px 0;
+
+  letter-spacing: 1px;
+}
+
+.videotutorial {
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 22px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  position: absolute;
+  padding: 0px 24px;
+  top: 50%;
+  display: flex;
+  left: 55%;
+  gap: 20px;
+}
+.videotutorial h1 {font-size: 43px;margin: 0;font-family: inter;}
+.videotutorial p {
+}
+
+.videotutorialcolor {
+  background: red;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  margin-top: 34px;
+}
+
+@media screen and (max-width: 425px) {
+  nav {
+    align-items: center;
+  }
+  nav h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  nav ul {
+    display: none;
+  }
+  nav ul li {
+    padding: 10px 20px;
+  }
+  .bannertextbox h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .bannertextbox h1 span {
+    font-size: 60px;
+  }
+  .bannertextbox p {
+    font-size: 13px;
+    line-height: 20px;
+    width: 60%;
+    margin-top: 5px;
+  }
+  .btn1,
+  .btn2 {
+    padding: 12px 30px;
+    font-size: 16px;
+    margin: 5px 7px;
+  }
+  .parentofbannertextimage {
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .bannerimage {
+    height: auto;
+    position: relative;
+  }
+  .workout{
+    position: absolute;
+    top: 59%;
+    left: 53%;
+    margin: 0;
+    width: auto;
+    padding: 5px 14px;
+  }
+  .videotutorial {
+    position: absolute;
+    top: 78%;
+    left: 10%;
+    margin: 0;
+    padding: 0px 16px;
+    gap: 12px;
+  }
+  .workout h1{
+    font-size: 30px;
+  }
+  .videotutorial h1 {
+    font-size: 30px;
+    margin: 2px;
+  }
+  .workout p
+  {
+      font-size: 12px;
+
+  }
+  .videotutorial p {
+    font-size: 12px;
+  
+}
+  .videotutorialcolor {
+    width: 40px;
+    height: 40px;
+    margin-top: 18px;
+  }
+}
