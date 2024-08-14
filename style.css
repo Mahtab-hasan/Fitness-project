@@ -101,7 +101,7 @@ nav ul {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  margin: 19px 0px;
+  margin: 28px 0px;
 }
 .btn1 {
   border-radius: 42px;
@@ -498,6 +498,10 @@ footer {
   color: white;
   background: #454545;
 }
+footer hr{
+  
+width: 80%;
+}
 .footerparent {
   display: flex;
   justify-content: space-evenly;
@@ -519,7 +523,6 @@ footer {
 }
 .copyright {
   text-align: center;
-  /* margin: 30px 0 0; */
   padding: 34px 0;
 }
 .text2 li {
@@ -647,6 +650,8 @@ footer {
   .card p {
     font-size: 14px;
     line-height: 20px;
+    width: 80%;
+    margin: auto;
   }
 
   .parentruner {
@@ -681,7 +686,7 @@ footer {
   .calculatortitle {
     text-align: left;
 
-    margin-left: 16px;
+    margin: 84px 20px 0px;
   }
 
   .calculatortitle h1 {
@@ -689,12 +694,13 @@ footer {
   }
   .calculatortitle p {
     font-size: 14px;
+    padding-right: 50px;
   }
   .bmicalculatorparent {
     flex-direction: column;
     align-items: center;
     padding: 20px 15px;
-    margin: 50px 0;
+    margin: 22px 0;
   }
   .tables {
     width: 100%;
@@ -801,6 +807,10 @@ footer {
   footer {
     background-color: #454545;
   }
+  footer hr{
+  
+    width: 90%;
+    }
   .footerparent {
     flex-direction: column;
     padding: 20px 15px;
