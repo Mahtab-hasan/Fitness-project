@@ -18,6 +18,14 @@ body {
   padding: 0;
 }
 
+.navbarss{
+  
+list-style: none;
+  
+display: none;
+}
+
+
 nav {
   color: white;
   display: flex;
@@ -48,8 +56,7 @@ nav ul {
 
   align-items: center;
 }
-nav ul li {
-}
+
 #home {
   background-color: rgb(230, 83, 60);
   border-radius: 25px;
@@ -77,16 +84,16 @@ nav ul li {
   color: white;
 }
 .bannertextbox h1 {
-  font-size: 80px;
+  font-size: 87px;
   margin: 0;
-  line-height: 70px;
+  line-height: 85px;
   padding-bottom: 15px;
   font-family: inter;
 }
 .bannertextbox h1 span {
   font-family: Grey Qo;
   font-weight: 300;
-  font-size: 110px;
+  font-size: 118px;
 }
 .bannertextbox p {
   color: rgba(255, 255, 255, 0.5);
@@ -126,8 +133,7 @@ nav ul li {
 .bannerimage {
   position: relative;
 }
-.bannerimage img {
-}
+
 .workout {
   position: absolute;
   top: 25%;
@@ -171,8 +177,15 @@ nav ul li {
   left: 55%;
   gap: 20px;
 }
-.videotutorial h1 {font-size: 43px;margin: 0;font-family: inter;}
+.videotutorial h1 {
+  font-size: 30px;
+  margin: 10px 0 0;
+  font-family: inter;
+}
 .videotutorial p {
+  margin: 5px 0 18px;
+  font-family: Inter;
+  font-weight: 100;
 }
 
 .videotutorialcolor {
@@ -180,15 +193,100 @@ nav ul li {
   width: 30px;
   height: 30px;
   border-radius: 50px;
-  margin-top: 34px;
+  margin-top: 31px;
 }
 
+.title {
+  color: white;
+
+  font-family: "Inter";
+
+  text-align: center;
+
+  margin-top: 50px;
+}
+.title h1 {
+  font-size: 50px;
+
+  font-weight: 800;
+
+  margin: 30px 0 20px;
+}
+.title p {
+  font-size: 14px;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.boxparent {
+  margin: 100px 0px;
+  display: flex;
+  justify-content: center;
+  font-family: Inter;
+}
+.card {
+  width: 275px;
+
+  color: white;
+
+  text-align: center;
+}
+.card img {
+  border-radius: 50%;
+  border: 5px solid #2b2b2b8a;
+}
+
+.card p {
+  color: rgba(255, 255, 255, 0.5);
+}
+.parentruner {
+  margin: 100px 0;
+}
+.runcontent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  border-radius: 33px;
+  background: rgb(34, 34, 34);
+  padding: 41px 54px;
+}
+
+.runtext {
+  color: white;
+
+  font-family: inter;
+}
+.runtext h1 {
+  font-size: 48px;
+
+  margin: 0;
+}
+.runtext p {
+  font-family: Inter;
+  font-size: 14px;
+  margin: 18px 0px;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 0.3px;
+}
+.runtext .btn1 {
+  margin: 24px 0px 0;
+  padding: 20px 70px;
+  font-family: inter;
+}
+
+.runimg img {
+  width: 400px;
+}
+
+/* mobile media  */
 @media screen and (max-width: 425px) {
   nav {
-    align-items: center;
+  gap: 186px;
   }
   nav h1 {
-    font-size: 28px;
+    font-size: 41px;
     margin-bottom: 10px;
   }
   nav ul {
@@ -197,6 +295,12 @@ nav ul li {
   nav ul li {
     padding: 10px 20px;
   }
+  .navbarss{
+    display: flex;
+    margin-top: 35px;
+    font-size: 30px;
+    }
+
   .bannertextbox h1 {
     font-size: 40px;
     line-height: 50px;
@@ -218,15 +322,16 @@ nav ul li {
   }
   .parentofbannertextimage {
     flex-direction: column;
-    margin-top: 40px;
+    margin-top: 60px;
   }
   .bannerimage {
     height: auto;
     position: relative;
+    margin-top: 20px;
   }
-  .workout{
+  .workout {
     position: absolute;
-    top: 59%;
+    top: 63%;
     left: 53%;
     margin: 0;
     width: auto;
@@ -234,31 +339,94 @@ nav ul li {
   }
   .videotutorial {
     position: absolute;
-    top: 78%;
+    top: 87%;
     left: 10%;
     margin: 0;
     padding: 0px 16px;
     gap: 12px;
   }
-  .workout h1{
+  .workout h1 {
     font-size: 30px;
   }
-  .videotutorial h1 {
+  .videotutorial h1{
     font-size: 30px;
     margin: 2px;
   }
-  .workout p
-  {
-      font-size: 12px;
-
-  }
-  .videotutorial p {
+  .workout p{
     font-size: 12px;
-  
-}
+  }
+  .videotutorial p{
+    font-size: 12px;
+  }
   .videotutorialcolor {
     width: 40px;
     height: 40px;
     margin-top: 18px;
+  }
+
+  .title {
+    margin: 0;
+  }
+
+  .title h1 {
+    font-size: 36px;
+    margin: 6px 0 10px;
+  }
+
+  .title p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .boxparent {
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+  }
+  .card {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+  .card img {
+    width: 150px;
+    height: 150px;
+  }
+  .card h2 {
+    font-size: 24px;
+    margin: 15px 0;
+  }
+  .card p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .parentruner {
+    margin: 50px 0;
+  }
+  .runcontent {
+    flex-direction: column;
+    padding: 35px 33px;
+  }
+  .runtext {
+    margin-bottom: 30px;
+  }
+  .runtext h1{
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .runtext p{
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .runtext .btn1{
+    padding: 20px 80px;
+    font-family: inter;
+    margin-left: 16px;
+    font-size: 23px;
+  }
+  .runimg img {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
   }
 }
