@@ -16,15 +16,14 @@ body {
   background: rgb(0, 0, 0);
   margin: 0;
   padding: 0;
+  font-family: inter;
 }
 
-.navbarss{
-  
-list-style: none;
-  
-display: none;
-}
+.navbarss {
+  list-style: none;
 
+  display: none;
+}
 
 nav {
   color: white;
@@ -280,10 +279,116 @@ nav ul {
   width: 400px;
 }
 
+.calculatortitle {
+  color: white;
+  font-family: "Inter";
+  text-align: center;
+  margin-top: 50px;
+}
+.calculatortitle h1 {
+  font-size: 50px;
+
+  font-weight: 800;
+
+  margin: 30px 0 20px;
+}
+.calculatortitle p {
+  font-size: 14px;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.bmicalculatorparent {
+  display: flex;
+  background: rgb(34, 34, 34);
+  margin: 88px 0px;
+  justify-content: space-evenly;
+  padding: 50px 0;
+}
+.tables {}
+.tables h1 {font-size: 30px;color: #fff;}
+
+table,
+th,
+td {
+  border: 1px solid #737373;
+  border-collapse: collapse;
+  padding: 14px 45px;
+}
+
+tr {
+  color: white;
+}
+
+/* form calculator */
+.bmi-calculator {
+  padding: 30px;
+  text-align: center;
+}
+
+.bmi-calculator {
+  padding: 30px;
+  text-align: center;
+  width: 35%;
+}
+.bmi-calculator h1 {
+  font-size: 25px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+.bmi-calculator p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #bbb;
+}
+.input-group {
+  margin-bottom: 15px;
+}
+
+.hewe {
+  width: 44%;
+  padding: 10px;
+  background-color: #4a4a4a;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.hewe {
+  width: 215px;
+  padding: 15px;
+  background-color: #4a4a4a;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+.hewe1 {
+  width: 245px;
+  padding: 15px;
+  background-color: #4a4a4a;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+.hewe2 {
+  width: 494px;
+  padding: 15px;
+  background-color: #4a4a4a;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  margin: auto;
+}
+input::placeholder {
+  color: #aaa;
+}
+.optionss {
+}
+
 /* mobile media  */
 @media screen and (max-width: 425px) {
   nav {
-  gap: 186px;
+    gap: 186px;
   }
   nav h1 {
     font-size: 41px;
@@ -295,11 +400,11 @@ nav ul {
   nav ul li {
     padding: 10px 20px;
   }
-  .navbarss{
+  .navbarss {
     display: flex;
     margin-top: 35px;
     font-size: 30px;
-    }
+  }
 
   .bannertextbox h1 {
     font-size: 40px;
@@ -348,14 +453,14 @@ nav ul {
   .workout h1 {
     font-size: 30px;
   }
-  .videotutorial h1{
+  .videotutorial h1 {
     font-size: 30px;
     margin: 2px;
   }
-  .workout p{
+  .workout p {
     font-size: 12px;
   }
-  .videotutorial p{
+  .videotutorial p {
     font-size: 12px;
   }
   .videotutorialcolor {
@@ -410,15 +515,15 @@ nav ul {
   .runtext {
     margin-bottom: 30px;
   }
-  .runtext h1{
+  .runtext h1 {
     font-size: 36px;
     line-height: 42px;
   }
-  .runtext p{
+  .runtext p {
     font-size: 14px;
     line-height: 23px;
   }
-  .runtext .btn1{
+  .runtext .btn1 {
     padding: 20px 80px;
     font-family: inter;
     margin-left: 16px;
@@ -429,4 +534,65 @@ nav ul {
     max-width: 300px;
     margin: 0 auto;
   }
+  .calculatortitle {
+
+text-align: left;
+
+margin-left: 16px;
+
+}
+
+  .calculatortitle h1{
+    font-size: 36px;
+  }
+  .calculatortitle p{
+    font-size: 14px;
+  }
+  .bmicalculatorparent{
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 15px;
+    margin: 50px 0;
+  }
+  .tables{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .tables h1{
+    font-size: 24px;
+  }
+  table, th , td{
+    width: 100%;
+    padding: 10px;
+  }
+  .bmi-calculator{
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+  }
+  .bmi-calculator h1{
+    font-size: 24px;
+  }
+  .input-group{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .hewe{
+    width: 165px;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  .hewe1{
+    width: 194px;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  .hewe2{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  
 }
