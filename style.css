@@ -386,6 +386,27 @@ input::placeholder {
   color: #aaa;
 }
 
+
+.meetoutteamtext {
+  color: white;
+  font-family: "Inter";
+  text-align: center;
+  margin: 80px 0;
+}
+.meetoutteamtext h1 {
+  font-size: 50px;
+
+  font-weight: 800;
+
+  margin: 30px 0 20px;
+}
+.meetoutteamtext p {
+  font-size: 14px;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
 .images-parents {
   width: 80%;
 
@@ -650,8 +671,7 @@ input::placeholder {
     padding: 10px;
   }
   .bmi-calculator {
-    width: 100%;
-    padding: 20px;
+    width: 80%;
     text-align: left;
   }
   .bmi-calculator h1 {
@@ -663,12 +683,12 @@ input::placeholder {
     margin-bottom: 15px;
   }
   .hewe {
-    width: 165px;
+    width: 125px;
     padding: 15px;
     margin-bottom: 15px;
   }
   .hewe1 {
-    width: 194px;
+    width: 155px;
     padding: 15px;
     margin-bottom: 15px;
   }
